@@ -2,7 +2,7 @@
  A WIP Super Mario 3D World mod porter that handles porting between both versions.
 - This repository hosts a ground-up new version of [Route-Dokan-Passport](https://github.com/Jenrikku/Route-Dokan-Passport). Further development will be pulled here.
 ## How to use
-Please check [the wiki here]().
+Run the program from a terminal and type --help.
 ## Known issues
 Attempting to port vanilla stages might sometimes crash the program, please use Spotlight to prevent this issue.
 ## Credits
