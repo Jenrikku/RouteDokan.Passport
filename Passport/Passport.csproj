@@ -7,12 +7,14 @@
     <RootNamespace>RouteDokan.Passport</RootNamespace>
     <Company />
     <Authors>Jenrikku</Authors>
-    <Version>0.2.0</Version>
-    <PackageLicenseExpression>BSD 3-Clause License</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/Jenrikku/Route-Dokan-Passport</RepositoryUrl>
+    <Version>0.2.1</Version>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Jenrikku/RouteDokan.Passport</RepositoryUrl>
     <NeutralLanguage>en</NeutralLanguage>
     <ApplicationIcon />
     <StartupObject />
+    <AssemblyVersion>0.2.1.0</AssemblyVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,6 +32,13 @@
     <Reference Include="SARCExt">
       <HintPath>..\dll\SARCExt.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -79,10 +79,11 @@ namespace RouteDokan.Passport {
                         }
 
                         switch(args[1]) {
-                            case "set":
-                            case "-s":
-                            case "--set":
+                            case string x when x.Contains("set") || x == "-s":
                                 Console.WriteLine(SetArgument);
+                                break;
+                            case string x when x.Contains("port") || x == "-p":
+                                Console.WriteLine(PortArgument);
                                 break;
                             default:
                                 Console.WriteLine("Invalid argument." + DefaultHelp);
