@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>RouteDokan.Library</AssemblyName>
+    <RootNamespace>RouteDokan.Library</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syroot.IO.BinaryData" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AampLibraryCSharp">
+      <HintPath>..\dll\AampLibraryCSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BfresLibrary">
+      <HintPath>..\dll\BfresLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Byaml">
+      <HintPath>..\dll\Byaml.dll</HintPath>
+    </Reference>
+    <Reference Include="EditorCoreCommon">
+      <HintPath>..\dll\EditorCoreCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="KclLibrary">
+      <HintPath>..\dll\KclLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SARCExt">
+      <HintPath>..\dll\SARCExt.dll</HintPath>
+    </Reference>
+    <Reference Include="Syroot.Maths">
+      <HintPath>..\dll\Syroot.Maths.dll</HintPath>
+    </Reference>
+    <Reference Include="Syroot.NintenTools.NSW.Bntx">
+      <HintPath>..\dll\Syroot.NintenTools.NSW.Bntx.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
