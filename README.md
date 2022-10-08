@@ -3,7 +3,7 @@
 - This repository hosts a ground-up new version of [Route-Dokan-Passport](https://github.com/Jenrikku/Route-Dokan-Passport). Further development will be pulled here.
 ## How to use
 Run the program from a terminal with the argument --help.
-- Take in mind that you need to have [.Net 5](https://github.com/dotnet/core/blob/main/release-notes/5.0/README.md) installed.
+- Take in mind that you need to have [.Net 5+](https://dotnet.microsoft.com/en-us/download) installed.
 ## Known issues
 Attempting to port vanilla stages might sometimes crash the program, please use Spotlight to prevent this issue.
 ## Credits
